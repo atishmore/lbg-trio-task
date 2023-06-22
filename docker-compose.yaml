@@ -4,7 +4,7 @@ services:
     image: trio-app:v1
     build: ./flask-app
     deploy:
-      replicase: 3
+      replicas: 3
     networks:
       - trio-net
     depends_on:

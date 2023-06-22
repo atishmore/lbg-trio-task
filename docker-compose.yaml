@@ -30,4 +30,4 @@ services:
       - target: 80
         published: 80
 networks:
-  trio-net
+  trio-net:
